@@ -1,0 +1,71 @@
+/* === Mobile (phones) === */
+@media (max-width: 768px) {
+    nav .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-container {
+      flex-direction: column;
+      padding: 30px;
+      text-align: center;
+    }
+  
+    .chefs-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .gallery-photos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #contact .details,
+    #contact form {
+      width: 90%;
+    }
+  
+    footer .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    footer .about,
+    footer .subscription,
+    footer .contact-details {
+      width: 100%;
+    }
+  }
+  
+  /* === Tablet (small laptops) === */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .chefs-cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .chefs-cards .card {
+      width: 45%;
+    }
+  
+    .gallery-photos {
+      flex-wrap: wrap;
+    }
+  
+    .gallery-photos .column {
+      width: 45%;
+    }
+  
+    #contact .details > div {
+      width: 48%;
+    }
+  
+    footer .about,
+    footer .subscription,
+    footer .contact-details {
+      width: 45%;
+      margin: 0 auto;
+    }
+  }
+  
