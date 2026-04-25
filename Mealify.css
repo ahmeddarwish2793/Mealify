@@ -792,3 +792,25 @@ footer .contact-details a:hover {
 
 
 /*END of Footer Section */
+
+/* === Darkmode === */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode nav {
+  background-color: #1e1e1e;
+}
+
+.dark-mode a {
+  color: white;
+}
+
+.dark-mode .home-container {
+  background-color: #1e1e1e;
+}
+
+.dark-mode section {
+  background-color: #121212;
+}
